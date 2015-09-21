@@ -93,7 +93,7 @@ pthread_exit(NULL);
 }
 
 int main( int argc, char *argv[] ) {
-pthread_t threads[5];
+pthread_t threads[4];
 int i;
  
 if(pthread_mutex_init(&mutexW,NULL)!=0)
